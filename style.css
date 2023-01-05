@@ -3,52 +3,198 @@ body {
   font-family: fantasy, Helvetica, '돋움', sans-serif;
 }
 
-header {
-  width: 100%;
-  height: 70px;
-  margin: 20px 0px 0px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
-}
-header .logo {
-  height: 30px;
-  margin: 50px;
-}
-header .wrap {
-  height: 23px;
-  margin: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
-}
-header .insta {
-  height: 100%;
-  margin: 0 4px;
+/* 1280px 이상 */
+@media all and (min-width: 1280px) {
+  header {
+    width: 100%;
+    height: 55px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    height: 35px;
+    margin-left: 40px;
+  }
+  header .sns-wrap {
+    display: flex;
+    margin-right: 40px;
+  }
+  header .kakao-wrap {
+    height: 23px;
+    width: 60px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .kakao-logo {
+    margin-right: 5px;
+    height: 15px;
+  }
+
+  header .kakao-character {
+    font-size: 13px;
+  }
+  header .insta-wrap {
+    height: 23px;
+    width: 60px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .insta-logo {
+    margin-right: 5px;
+    height: 15px;
+  }
+
+  header .insta-character {
+    font-size: 13px;
+  }
+  nav {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  nav .container {
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    border: 1px solid red;
+  }
+  nav .container .item {
+    font-size: 50px;
+    font-weight: 100;
+  }
 }
 
-nav {
-  width: 100%;
-  height: 60px;
+/* 540px ~ 1280px */
+@media all and (min-width: 540px) and (max-width: 1280px) {
+  header {
+    width: 100%;
+    height: 55px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    height: 35px;
+    margin-left: 40px;
+  }
+  header .sns-wrap {
+    display: flex;
+    margin-right: 40px;
+  }
+  header .kakao-wrap {
+    height: 23px;
+    width: 60px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .kakao-logo {
+    margin-right: 5px;
+    height: 15px;
+  }
+
+  header .kakao-character {
+    font-size: 13px;
+  }
+  header .insta-wrap {
+    height: 23px;
+    width: 60px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .insta-logo {
+    margin-right: 5px;
+    height: 15px;
+  }
+
+  header .insta-character {
+    font-size: 13px;
+  }
+  nav {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  nav .container {
+    width: 850px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    border: 1px solid red;
+  }
+  nav .container .item {
+    font-size: 40px;
+    font-weight: 100;
+  }
 }
-nav .container {
-  width: 1400px;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-nav .container .item {
-  font-size: 50px;
-  font-weight: lighter;
+
+/* 540px 이하 */
+@media all and (max-width: 540px) {
+  header {
+    width: 100%;
+    height: 27px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    height: 23px;
+    margin-left: 15px;
+  }
+  header .sns-wrap {
+    display: flex;
+    margin-right: 25px;
+  }
+  header .kakao-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .kakao-logo {
+    margin-right: 5px;
+    height: 25px;
+  }
+
+  header .kakao-character {
+    display: none;
+  }
+  header .insta-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .insta-logo {
+    height: 25px;
+  }
+
+  header .insta-character {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
 }
 
 main {
   width: 100%;
   height: 800px;
-  margin: 30px 0px 0px 0px;
 }
 main .container {
   width: 100%;
@@ -82,4 +228,16 @@ footer {
 footer .container {
   margin: 15px;
   line-height: 22px;
+}
+
+/* PC (해상도 1024px) */
+@media all and (min-width: 1024px) {
+}
+
+/* 테블릿 (해상도 768px ~ 1023px) */
+@media all and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* 모바일 (해상도 480px ~ 767px) */
+@media all and (max-width: 767px) {
 }
