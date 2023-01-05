@@ -1,61 +1,85 @@
+body {
+  width: 100%;
+  font-family: fantasy, Helvetica, '돋움', sans-serif;
+}
+
 header {
   width: 100%;
   height: 70px;
+  margin: 20px 0px 0px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-  padding: 10px 0px;
 }
 header .logo {
-  height: 50px;
-  padding-left: 45px;
+  height: 30px;
+  margin: 50px;
+}
+header .wrap {
+  height: 23px;
+  margin: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
 }
 header .insta {
-  height: 30px;
-  padding-right: 45px;
+  height: 100%;
+  margin: 0 4px;
 }
+
 nav {
-  padding: 0px 0px 15px 30px;
+  width: 100%;
+  height: 60px;
 }
 nav .container {
-  width: 70%;
-  height: 70px;
+  width: 1400px;
+  height: 100%;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  align-content: center;
+  align-items: center;
 }
 nav .container .item {
-  font-size: 45px;
-  font-weight: bolder;
+  font-size: 50px;
+  font-weight: lighter;
 }
+
 main {
   width: 100%;
   height: 800px;
-}
-main .answer {
-  position: absolute;
-  top: 60%;
-  left: 30%;
-  font-size: 39px;
-  color: white;
+  margin: 30px 0px 0px 0px;
 }
 main .container {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
 }
-main .container .item {
+main .container .item1 {
+  background-image: url('./img_sp/alan-j-hendry-zVf-R-r3szw-unsplash.jpg');
+  background-size: 100%;
   width: 33.3%;
   height: 100%;
-  border: 1px solid black;
-  background-color: darkcyan;
 }
+main .container .item2 {
+  background-image: url('./img_sp/k8-9brIbLCo950-unsplash.jpg');
+  background-size: 100%;
+  width: 33.3%;
+  height: 100%;
+}
+main .container .item3 {
+  background-image: url('./img_sp/jason-briscoe-UV81E0oXXWQ-unsplash.jpg');
+  background-size: 100%;
+  width: 33.3%;
+  height: 100%;
+}
+
 footer {
   width: 100%;
-  height: 60px;
+  height: 150px;
   font-size: 15px;
-  padding: 15px 15px;
+}
+footer .container {
+  margin: 15px;
+  line-height: 22px;
 }
