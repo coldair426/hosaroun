@@ -13,19 +13,51 @@
 
 .location-container {
     width: 100%;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+#location-main {
     height: 70vh;
     background-color: #efecec;
 }
 
 .location-container__header {
     width: 100%;
-    color: #616161;
     height: 30px;
 }
+
 .location-container__location {
     width: 80%;
 }
+
 .location-container__header > span {
+    color: #616161;
+}
+
+.location-container__description {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100px;
+}
+.container__description--hypen{
+    width:300px;
+    display: flex;
+    height:20px;
+    align-items: center;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+.container__description--hypen::before {
+    /* position: ; */
+    display: block;
+    content: "";
+    width:5px;
+    height:20px;
+    background-color: #616161;
+    margin-right: 10px;
+
 }
 
 nav .container .item {
