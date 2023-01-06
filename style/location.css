@@ -1,0 +1,34 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-container {
+    width: 100%;
+    height: 70vh;
+    background-color: #efecec;
+}
+
+.location-container__header {
+    width: 100%;
+    color: #616161;
+    height: 30px;
+}
+.location-container__location {
+    width: 80%;
+}
+.location-container__header > span {
+}
+
+nav .container .item {
+    font-size: 20px;
+    font-weight: lighter;
+}
