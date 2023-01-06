@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   width: 100%;
-  font-family: fantasy, Helvetica, '돋움', sans-serif;
+  font-family: NanumBarunpen, sans-serif;
 }
 
 /* 1280px 이상 */
@@ -192,30 +199,53 @@ body {
 
 main {
   width: 100%;
-  height: 800px;
+  height: 2000px;
 }
-main .container {
+main .imgs {
   width: 100%;
   height: 100%;
+}
+main .imgs > div {
   display: flex;
+  width: 100%;
+  height: 33.3%;
 }
-main .container .item1 {
-  background-image: url('./img_sp/alan-j-hendry-zVf-R-r3szw-unsplash.jpg');
+
+main .img1 {
   background-size: 100%;
-  width: 33.3%;
+  max-width: 75%;
   height: 100%;
+  object-fit: cover;
 }
-main .container .item2 {
-  background-image: url('./img_sp/k8-9brIbLCo950-unsplash.jpg');
+main .img2 {
   background-size: 100%;
-  width: 33.3%;
-  height: 100%;
+  width: 25%;
+  max-height: 100%;
+  object-fit: cover;
 }
-main .container .item3 {
-  background-image: url('./img_sp/jason-briscoe-UV81E0oXXWQ-unsplash.jpg');
+main .img3 {
   background-size: 100%;
-  width: 33.3%;
-  height: 100%;
+  width: 25%;
+  max-height: 100%;
+  object-fit: cover;
+}
+main .img4 {
+  background-size: 100%;
+  width: 75%;
+  max-height: 100%;
+  object-fit: cover;
+}
+main .img5 {
+  background-size: 100%;
+  width: 75%;
+  max-height: 100%;
+  object-fit: cover;
+}
+main .img6 {
+  background-size: 100%;
+  width: 25%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 footer {
