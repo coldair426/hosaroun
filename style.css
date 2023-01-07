@@ -209,4 +209,28 @@ footer .footer-sns-wrap .footer-insta-character {
   main .imgs .img2 {
     width: 100%;
   }
+  footer {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  footer > div {
+    width: 200px;
+  }
+  footer > div .footer--name {
+    font-size: 15px;
+  }
+  footer .footer-sns-wrap .footer-kakao-wrap,
+  footer .footer-sns-wrap .footer-insta-wrap {
+    margin: 0px 10px;
+  }
+  footer .footer-sns-wrap .footer-kakao-logo,
+  footer .footer-sns-wrap .footer-insta-logo {
+    height: 12px;
+    margin: 0px 1px;
+  }
+  footer .footer-sns-wrap .footer-kakao-character,
+  footer .footer-sns-wrap .footer-insta-character {
+    font-size: 11px;
+  }
 }
