@@ -205,7 +205,9 @@ footer .footer-sns-wrap .footer-insta-character {
   main .imgs > div {
     display: block;
   }
-  main .imgs .img1,
+  main .imgs .img1 {
+    display: none;
+  }
   main .imgs .img2 {
     width: 100%;
   }
