@@ -33,40 +33,27 @@ header .sns-wrap-pc {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 130px;
+  width: 230px;
 }
 header .logo {
   font-size: 35px;
   font-weight: 900;
 }
-header .sns-wrap-pc .kakao-wrap {
-  height: 23px;
-  width: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
-}
-header .sns-wrap-pc .kakao-logo {
-  margin-right: 2px;
-  height: 15px;
-}
-header .sns-wrap-pc .kakao-character {
-  font-size: 13px;
-  font-weight: 900;
-}
+header .sns-wrap-pc .kakao-wrap,
 header .sns-wrap-pc .insta-wrap {
   height: 23px;
   width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 30px 0px 0px;
+  margin-right: 30px;
 }
+header .sns-wrap-pc .kakao-logo,
 header .sns-wrap-pc .insta-logo {
   margin-right: 2px;
   height: 15px;
 }
+header .sns-wrap-pc .kakao-character,
 header .sns-wrap-pc .insta-character {
   font-size: 13px;
   font-weight: 900;
@@ -91,15 +78,16 @@ header .sub-nav {
 }
 main {
   width: 100%;
-}
-main .imgs {
-  width: 100%;
+  line-height: 0px;
 }
 main .imgs > div {
   display: flex;
 }
-main .imgs img {
-  max-width: 50%;
+main .imgs .img1 {
+  width: 60%;
+}
+main .imgs .img2 {
+  width: 40%;
 }
 footer {
   width: 100%;
@@ -120,7 +108,7 @@ footer .container {
     font-size: 22px;
   }
   .main-nav .container > a {
-    margin: 0px 35px;
+    margin: 0px 30px;
   }
 }
 /*---------------------------------------------------------------*/
@@ -133,21 +121,15 @@ footer .container {
   header .sns-wrap-moblie {
     display: flex;
     margin-left: 10px;
-    width: 70px;
+    width: 100px;
   }
-  header .sns-wrap-moblie .insta-wrap {
-    height: 25px;
-    width: 25px;
-    margin-right: 10px;
-  }
-  header .sns-wrap-moblie .insta-logo {
-    height: 25px;
-  }
+  header .sns-wrap-moblie .insta-wrap,
   header .sns-wrap-moblie .kakao-wrap {
     height: 25px;
     width: 25px;
-    margin: 0px;
+    margin: 0px 10px 0px 0px;
   }
+  header .sns-wrap-moblie .insta-logo,
   header .sns-wrap-moblie .kakao-logo {
     height: 25px;
   }
@@ -155,7 +137,7 @@ footer .container {
     display: none;
   }
   header .logo {
-    font-size: 30px;
+    font-size: 20px;
   }
   header .sns-wrap-pc {
     display: none;
@@ -163,9 +145,8 @@ footer .container {
   header .sub-nav {
     display: flex;
     justify-content: right;
-    align-items: center;
-    height: 25px;
-    width: 70px;
+    width: 100px;
+    height: 20px;
     margin-right: 10px;
   }
   header .sub-nav img {
@@ -177,7 +158,8 @@ footer .container {
   main .imgs > div {
     display: block;
   }
-  main .imgs img {
-    max-width: 100%;
+  main .imgs .img1,
+  main .imgs .img2 {
+    width: 100%;
   }
 }
