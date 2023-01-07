@@ -28,16 +28,16 @@ header {
 header .sns-wrap-moblie {
   display: none;
 }
-header .logo {
-  font-size: 35px;
-  font-weight: 900;
-}
 header .pc-ver-tag,
 header .sns-wrap-pc {
   display: flex;
   justify-content: end;
   align-items: center;
   width: 130px;
+}
+header .logo {
+  font-size: 35px;
+  font-weight: 900;
 }
 header .sns-wrap-pc .kakao-wrap {
   height: 23px;
@@ -108,8 +108,16 @@ header .sub-nav {
   }
   header .sns-wrap-moblie {
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 70px;
+  }
+  header .sns-wrap-moblie .insta-wrap {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+  header .sns-wrap-moblie .insta-logo {
+    height: 25px;
   }
   header .sns-wrap-moblie .kakao-wrap {
     height: 25px;
@@ -117,14 +125,6 @@ header .sub-nav {
     margin: 0px;
   }
   header .sns-wrap-moblie .kakao-logo {
-    height: 25px;
-  }
-  header .sns-wrap-moblie .insta-wrap {
-    height: 25px;
-    width: 25px;
-    margin: 0px 5px 0px 0px;
-  }
-  header .sns-wrap-moblie .insta-logo {
     height: 25px;
   }
   header .pc-ver-tag {
@@ -137,12 +137,13 @@ header .sub-nav {
     display: none;
   }
   header .sub-nav {
-    display: block;
+    display: flex;
+    align-items: center;
     height: 25px;
-    width: 70px;
+    margin-right: 10px;
   }
   header .sub-nav img {
-    height: 25px;
+    height: 20px;
   }
   .main-nav {
     display: none;
