@@ -13,114 +13,123 @@
     <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
-    <header>
-      <div class="sns-wrap-moblie">
-        <a class="insta-wrap" href="https://www.instagram.com/hosaroun/">
+    <header class="header">
+      <div class="header__sns-logos-moblie">
+        <a
+          class="header__sns-logo-moblie"
+          href="https://www.instagram.com/hosaroun/"
+        >
           <img
-            class="insta-logo"
+            class="header__sns-icon-moblie"
             src="./icon_src/instagram-logo_black.png"
             alt="Instagram"
           />
         </a>
-        <a class="kakao-wrap" href="https://www.daum.net">
+        <a class="header__sns-logo-moblie" href="https://www.daum.net">
           <img
-            class="kakao-logo"
+            class="header__sns-icon-moblie"
             src="./icon_src/kakaotalk-logo.png"
             alt="kakaotalk"
           />
         </a>
       </div>
       <!-- 정렬을 위한 빈 태그 -->
-      <div class="pc-ver-tag"></div>
-      <a href="./index.html"><div class="logo">호사로운</div></a>
-      <div class="sns-wrap-pc">
-        <a class="kakao-wrap" href="https://www.daum.net">
+      <div class="header__empty-tag"></div>
+      <a href="./index.html"><div class="header__title">호사로운</div></a>
+      <div class="header__sns-logos-pc">
+        <a class="header__sns-logo-pc" href="https://www.daum.net">
           <img
-            class="kakao-logo"
+            class="header__sns-icon-pc"
             src="./icon_src/kakaotalk-logo.png"
             alt="kakaotalk"
           />
-          <div class="kakao-character">Kakaotalk</div>
+          <div class="header__sns-letter-pc">Kakaotalk</div>
         </a>
-        <a class="insta-wrap" href="https://www.instagram.com/hosaroun/">
+        <a
+          class="header__sns-logo-pc header__sns-logo-pc--margin"
+          href="https://www.instagram.com/hosaroun/"
+        >
           <img
-            class="insta-logo"
+            class="header__sns-icon-pc"
             src="./icon_src/instagram-logo_black.png"
             alt="Instagram"
           />
-          <div class="insta-character">Instagram</div>
+          <div class="header__sns-letter-pc">Instagram</div>
         </a>
       </div>
-      <a class="sub-nav" href="">
+      <a class="header__navigation-mobile" href="">
         <nav>
-          <img src="./icon_src/hamburger.png" alt="menu" />
+          <img
+            class="header__navigation-icon-mobile"
+            src="./icon_src/hamburger.png"
+            alt="menu"
+          />
         </nav>
       </a>
     </header>
-
-    <nav class="main-nav">
-      <div class="container">
-        <a href="">
-          <div class="item">Overview</div>
+    <nav class="navigation">
+      <div class="navigation__items">
+        <a class="navigation__item" href="">
+          <div>Overview</div>
         </a>
-        <a href="">
-          <div class="item">Rooms</div>
+        <a class="navigation__item" href="">
+          <div>Rooms</div>
         </a>
-        <a href="./location.html">
-          <div class="item">Location</div>
+        <a class="navigation__item" href="./location.html">
+          <div>Location</div>
         </a>
-        <a href="">
-          <div class="item">Book now</div>
+        <a class="navigation__item" href="">
+          <div>Book now</div>
         </a>
-        <a href="">
-          <div class="item">Contact us</div>
+        <a class="navigation__item" href="">
+          <div>Contact us</div>
         </a>
       </div>
     </nav>
-    <main>
-      <div class="imgs">
-        <div>
+    <main class="main">
+      <div class="main__imgs">
+        <div class="main__img-line">
           <img
-            class="img1"
+            class="main__img-horizontal"
             src="./img_src/img-horizontal/KakaoTalk_20230106_214643876.jpg"
             alt="샘플사진"
           />
           <img
-            class="img2"
+            class="main__img-vertical"
             src="./img_src/img-vertical/KakaoTalk_20230106_214643876_04.jpg"
             alt="샘플사진"
           />
         </div>
-        <div>
+        <div class="main__img-line">
           <img
-            class="img2"
+            class="main__img-vertical"
             src="./img_src/img-vertical/KakaoTalk_20230106_214643876_02.jpg"
             alt="샘플사진"
           />
           <img
-            class="img1"
+            class="main__img-horizontal"
             src="./img_src/img-horizontal/KakaoTalk_20230106_214643876_06.jpg"
             alt="샘플사진"
           />
         </div>
-        <div>
+        <div class="main__img-line">
           <img
-            class="img1"
+            class="main__img-horizontal"
             src="./img_src/img-horizontal/KakaoTalk_20230106_214643876_05.jpg"
             alt="샘플사진"
           />
           <img
-            class="img2"
+            class="main__img-vertical"
             src="./img_src/img-vertical/KakaoTalk_20230106_214643876_03.jpg"
             alt="샘플사진"
           />
         </div>
       </div>
     </main>
-    <footer>
-      <div>
-        <a href="./index.html">
-          <div class="footer--name">호사로운</div>
+    <footer class="footer">
+      <div class="footer__container">
+        <a class="footer__title" href="./index.html">
+          <div>호사로운</div>
         </a>
         <div>
           주소:
@@ -129,30 +138,29 @@
           >
         </div>
         <div>번호: <a href="tel:010-8790-0835">010-8790-0835</a></div>
-        <div class="footer-sns-wrap">
-          <a class="footer-kakao-wrap" href="https://www.daum.net">
+        <div class="footer__sns-logos">
+          <a class="footer__sns-logo" href="https://www.daum.net">
             <img
-              class="footer-kakao-logo"
+              class="footer__sns-icon"
               src="./icon_src/kakaotalk-logo.png"
               alt="kakaotalk"
             />
-            <div class="footer-kakao-character">Kakaotalk</div>
+            <div class="footer__sns-letter">Kakaotalk</div>
           </a>
           <a
-            class="footer-insta-wrap"
+            class="footer__sns-logo"
             href="https://www.instagram.com/hosaroun/"
           >
             <img
-              class="footer-insta-logo"
+              class="footer__sns-icon"
               src="./icon_src/instagram-logo_black.png"
               alt="Instagram"
             />
-            <div class="footer-insta-character">Instagram</div>
+            <div class="footer__sns-letter">Instagram</div>
           </a>
         </div>
       </div>
     </footer>
-
     <script src=""></script>
   </body>
 </html>

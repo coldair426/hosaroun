@@ -13,10 +13,9 @@ a:visited {
   color: black;
 }
 body {
-  width: 100%;
   font-family: Pretendard-Regular, sans-serif;
 }
-header {
+.header {
   width: 100%;
   height: 55px;
   margin: 40px 0px 5px 0px;
@@ -24,64 +23,60 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header .sns-wrap-moblie {
+.header__sns-logos-moblie {
   display: none;
 }
-header .pc-ver-tag,
-header .sns-wrap-pc {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  width: 230px;
-}
-header .logo {
+.header__title {
   font-size: 35px;
   font-weight: 900;
   letter-spacing: 20px;
   padding-left: 20px;
 }
-header .sns-wrap-pc > a {
+.header__empty-tag,
+.header__sns-logos-pc {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 230px;
+}
+.header__sns-logo-pc {
   height: 23px;
   width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-header .sns-wrap-pc .kakao-wrap {
   margin-right: 23px;
 }
-header .sns-wrap-pc .insta-wrap {
+.header__sns-logo-pc--margin {
   margin-right: 55px;
 }
-header .sns-wrap-pc .kakao-logo,
-header .sns-wrap-pc .insta-logo {
+.header__sns-icon-pc {
   margin-right: 2px;
   height: 15px;
 }
-header .sns-wrap-pc .kakao-character,
-header .sns-wrap-pc .insta-character {
+.header__sns-letter-pc {
   font-size: 13px;
   font-weight: 900;
 }
-header .sub-nav {
+.header__navigation-mobile {
   display: none;
 }
-.main-nav {
+.navigation {
   width: 100%;
   height: 30px;
   margin: 20px 0px;
 }
-.main-nav .container {
+.navigation__items {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px;
 }
-.main-nav .container > a {
+.navigation__item {
   margin: 0px 30px;
 }
-footer {
+.footer {
   width: 100%;
   font-size: 15px;
   font-weight: 900;
@@ -89,31 +84,28 @@ footer {
   display: flex;
   justify-content: right;
 }
-footer > div {
+.footer__container {
   width: 300px;
   margin: 15px;
 }
-footer > div .footer--name {
+.footer__title {
   font-size: 20px;
 }
-footer .footer-sns-wrap {
+.footer__sns-logos {
   display: flex;
   align-items: center;
 }
-footer .footer-sns-wrap .footer-kakao-wrap,
-footer .footer-sns-wrap .footer-insta-wrap {
+.footer__sns-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px 25px;
 }
-footer .footer-sns-wrap .footer-kakao-logo,
-footer .footer-sns-wrap .footer-insta-logo {
+.footer__sns-icon {
   height: 15px;
   margin: 0px 2px;
 }
-footer .footer-sns-wrap .footer-kakao-character,
-footer .footer-sns-wrap .footer-insta-character {
+.footer__sns-letter {
   font-size: 13px;
   font-weight: 900;
 }
@@ -122,57 +114,52 @@ footer .footer-sns-wrap .footer-insta-character {
 /*---------------------------------------------------------------*/
 /* 1024px 이하 */
 @media all and (max-width: 1024px) {
-  header {
+  .header {
     margin: 18px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  header .sns-wrap-pc .kakao-wrap {
+  .header__sns-logo-pc {
     margin-right: 5px;
   }
-  header .sns-wrap-pc .insta-wrap {
+  .header__sns-logo-pc--margin {
     margin-right: 45px;
   }
-  header .sns-wrap-pc .kakao-logo,
-  header .sns-wrap-pc .insta-logo {
+  .header__sns-icon-pc {
     height: 12px;
   }
-  header .sns-wrap-pc .kakao-character,
-  header .sns-wrap-pc .insta-character {
+  .header__sns-letter-pc {
     font-size: 10px;
   }
-  .main-nav {
+  .navigation {
     margin: 0px 0px 5px 0px;
   }
-  .main-nav .container {
+  .navigation__items {
     font-size: 20px;
   }
-  .main-nav .container > a {
+  .navigation__item {
     margin: 0px 20px;
   }
-  footer {
+  .footer {
     font-size: 12px;
     line-height: 20px;
   }
-  footer > div {
+  .footer__container {
     width: 250px;
     margin: 10px;
   }
-  footer > div .footer--name {
+  .footer__title {
     font-size: 17px;
   }
-  footer .footer-sns-wrap .footer-kakao-wrap,
-  footer .footer-sns-wrap .footer-insta-wrap {
+  .footer__sns-logo {
     margin: 0px 10px;
   }
-  footer .footer-sns-wrap .footer-kakao-logo,
-  footer .footer-sns-wrap .footer-insta-logo {
+  .footer__sns-icon {
     height: 12px;
     margin: 0px 1px;
   }
-  footer .footer-sns-wrap .footer-kakao-character,
-  footer .footer-sns-wrap .footer-insta-character {
+  .footer__sns-letter {
     font-size: 11px;
   }
 }
@@ -181,76 +168,66 @@ footer .footer-sns-wrap .footer-insta-character {
 /*---------------------------------------------------------------*/
 /* 768px 미만 */
 @media all and (max-width: 767px) {
-  header {
+  .header {
     height: 60px;
     margin: 0px;
   }
-  header .sns-wrap-moblie {
+  .header__sns-logos-moblie {
     display: flex;
-    margin: 0px 0px 0px 20px;
+    margin-left: 20px;
     width: 50px;
   }
-  header .sns-wrap-moblie > a {
+  .header__sns-logo-moblie {
     height: 15px;
     width: 20px;
   }
-  header .sns-wrap-moblie .insta-wrap {
-    margin: 0px 0px 0px 0px;
-  }
-  header .sns-wrap-moblie .kakao-wrap {
-    margin: 0px;
-  }
-  header .sns-wrap-moblie .insta-logo,
-  header .sns-wrap-moblie .kakao-logo {
+  .header__sns-icon-moblie {
     height: 15px;
   }
-  header .pc-ver-tag {
+  .header__empty-tag {
     display: none;
   }
-  header .logo {
+  .header__title {
     letter-spacing: 11px;
     font-size: 23px;
     padding-left: 11px;
   }
-  header .sns-wrap-pc {
+  .header__sns-logos-pc {
     display: none;
   }
-  header .sub-nav {
+  .header__navigation-mobile {
     display: flex;
     justify-content: right;
     width: 50px;
     height: 15px;
-    margin: 0px 20px 0px 0px;
+    margin-right: 20px;
   }
-  header .sub-nav img {
+  .header__navigation-icon-mobile {
     height: 15px;
   }
-  .main-nav {
+  .navigation {
     display: none;
   }
-  footer {
+  .footer {
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
   }
-  footer > div {
+  .footer__container {
     width: 230px;
     margin: 10px;
   }
-  footer > div .footer--name {
+  .footer__title {
     font-size: 15px;
   }
-  footer .footer-sns-wrap .footer-kakao-wrap,
-  footer .footer-sns-wrap .footer-insta-wrap {
+  .footer__sns-logo {
     margin: 0px 10px;
   }
-  footer .footer-sns-wrap .footer-kakao-logo,
-  footer .footer-sns-wrap .footer-insta-logo {
+  .footer__sns-icon {
     height: 12px;
     margin: 0px 1px;
   }
-  footer .footer-sns-wrap .footer-kakao-character,
-  footer .footer-sns-wrap .footer-insta-character {
+  .footer__sns-letter {
     font-size: 11px;
   }
 }

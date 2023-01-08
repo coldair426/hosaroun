@@ -1,14 +1,14 @@
-main {
+.main {
   width: 100%;
   line-height: 0px;
 }
-main .imgs > div {
+.main__img-line {
   display: flex;
 }
-main .imgs .img1 {
+.main__img-horizontal {
   width: 60%;
 }
-main .imgs .img2 {
+.main__img-vertical {
   width: 40%;
 }
 /*---------------------------------------------------------------*/
@@ -16,13 +16,13 @@ main .imgs .img2 {
 /*---------------------------------------------------------------*/
 /* 768px 미만 */
 @media all and (max-width: 767px) {
-  main .imgs > div {
+  .main__img-line {
     display: block;
   }
-  main .imgs .img1 {
+  .main__img-horizontal {
     display: none;
   }
-  main .imgs .img2 {
+  .main__img-vertical {
     width: 100%;
   }
 }
