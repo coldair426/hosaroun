@@ -91,7 +91,7 @@ footer {
 }
 footer > div {
   width: 300px;
-  margin: 10px;
+  margin: 15px;
 }
 footer > div .footer--name {
   font-size: 20px;
@@ -157,7 +157,7 @@ footer .footer-sns-wrap .footer-insta-character {
   }
   footer > div {
     width: 250px;
-    margin: 7px;
+    margin: 10px;
   }
   footer > div .footer--name {
     font-size: 17px;
@@ -234,7 +234,8 @@ footer .footer-sns-wrap .footer-insta-character {
     line-height: 20px;
   }
   footer > div {
-    width: 200px;
+    width: 230px;
+    margin: 10px;
   }
   footer > div .footer--name {
     font-size: 15px;
