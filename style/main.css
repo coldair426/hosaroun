@@ -1,0 +1,28 @@
+main {
+  width: 100%;
+  line-height: 0px;
+}
+main .imgs > div {
+  display: flex;
+}
+main .imgs .img1 {
+  width: 60%;
+}
+main .imgs .img2 {
+  width: 40%;
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 768px 미만 */
+@media all and (max-width: 767px) {
+  main .imgs > div {
+    display: block;
+  }
+  main .imgs .img1 {
+    display: none;
+  }
+  main .imgs .img2 {
+    width: 100%;
+  }
+}
