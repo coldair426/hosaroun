@@ -67,7 +67,7 @@ body {
   height: 55px;
   margin: 40px 0px 5px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: white;
 }
@@ -80,21 +80,17 @@ body {
   letter-spacing: 20px;
   padding-left: 20px;
 }
-.header__empty-tag,
 .header__sns-logos-pc {
   display: flex;
-  justify-content: end;
   align-items: center;
+  position: absolute;
+  right: 20px;
 }
 .header__sns-logo-pc {
-  height: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 23px;
-}
-.header__sns-logo-pc--margin {
-  margin-right: 55px;
+  margin-right: 15px;
 }
 .header__sns-icon-pc {
   margin-right: 2px;
@@ -186,14 +182,11 @@ body {
   .header {
     margin: 18px 0px 0px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .header__sns-logo-pc {
     margin-right: 5px;
-  }
-  .header__sns-logo-pc--margin {
-    margin-right: 45px;
   }
   .header__sns-icon-pc {
     height: 12px;
@@ -250,6 +243,7 @@ body {
   .header {
     height: 60px;
     margin: 0px;
+    justify-content: space-between;
   }
   .header__sns-logos-moblie {
     display: flex;
@@ -262,9 +256,6 @@ body {
   }
   .header__sns-icon-moblie {
     height: 15px;
-  }
-  .header__empty-tag {
-    display: none;
   }
   .header__title {
     letter-spacing: 11px;
