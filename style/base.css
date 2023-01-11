@@ -81,6 +81,7 @@ body {
   padding-left: 20px;
 }
 .header__sns-logos-pc {
+  display: flex;
   align-items: center;
   position: absolute;
   right: 20px;
