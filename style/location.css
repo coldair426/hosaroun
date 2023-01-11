@@ -12,7 +12,7 @@
 }
 
 .location-container {
-    width: 100%;
+    box-sizing: content-box;
     padding: 0 10px;
     margin: 10px 0;
 }
@@ -41,6 +41,7 @@
     flex-direction: column;
     width: 80%;
     height: 100px;
+    
 }
 .container__description--hypen {
     width: 300px;
@@ -50,23 +51,19 @@
     font-size: 18px;
     margin: 0 0 10px 0;
 }
-
+.container__description__text-area {
+    justify-content: left;
+}
 .container__description--text {
-    height:60px;
     line-height: 20px;
+    vertical-align: middle;
 }
 
 .container__description--hypen::before {
-    /* position: ; */
     display: block;
     content: "";
     width: 5px;
     height: 20px;
     background-color: #616161;
     margin-right: 10px;
-}
-
-nav .container .item {
-    font-size: 20px;
-    font-weight: lighter;
 }
