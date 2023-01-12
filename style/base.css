@@ -5,6 +5,13 @@
   font-weight: 400;
   font-style: normal;
 }
+/* 버튼 스타일 초기화 */
+button {
+  background: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
 a {
   text-decoration: none;
 }
@@ -101,7 +108,7 @@ body {
   font-size: 13px;
   font-weight: 900;
 }
-.header__navigation-mobile {
+.header__mobile-navigation {
   display: none;
 }
 .navigation {
@@ -249,7 +256,6 @@ body {
   .header__sns-logos-moblie {
     display: flex;
     margin-left: 20px;
-    width: 50px;
   }
   .header__sns-logo-moblie {
     height: 15px;
@@ -266,15 +272,47 @@ body {
   .header__sns-logos-pc {
     display: none;
   }
-  .header__navigation-mobile {
+  .header__mobile-navigation {
     display: flex;
+    flex-direction: column;
     justify-content: right;
-    width: 50px;
     height: 15px;
     margin-right: 20px;
   }
-  .header__navigation-icon-mobile {
+  .header__mobile-navigation-open {
+  }
+
+  .header__mobile-navigation-icon {
     height: 15px;
+  }
+  .header__mobile-navigation-slide {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 60%;
+    top: 0px;
+    right: 0px;
+  }
+  .header__mobile-navigation-close {
+    display: flex;
+    position: relative;
+    justify-content: right;
+  }
+  .header__mobile-navigation-close-icon {
+    margin: 20px;
+    height: 20px;
+    width: 20px;
+  }
+  .header__mobile-navigation-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .header__mobile-navigation-item {
+    display: block;
+    margin: 25px;
+    font-size: 17px;
   }
   .navigation {
     display: none;

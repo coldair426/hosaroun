@@ -3,6 +3,15 @@ const stickyHeader = document.getElementsByClassName(
   'sticky-header-selecter'
 )[0];
 const navigation = document.getElementsByClassName('navigation')[0];
+const mobileNavigationIcon = document.getElementsByClassName(
+  'header__mobile-navigation-icon'
+)[0];
+const mobileNavigationCloseIcon = document.getElementsByClassName(
+  'header__mobile-navigation-close-icon'
+)[0];
+const mobileNavigationSliede = document.getElementsByClassName(
+  'header__mobile-navigation-slide'
+)[0];
 
 // sticky mobile header.
 window.addEventListener('scroll', () => {
@@ -24,4 +33,12 @@ window.addEventListener('scroll', () => {
     stickyHeader.classList.add('sticky-header-none');
     stickyHeader.classList.remove('sticky-header');
   }
+});
+
+// 모바일 네비게이션 메뉴.
+mobileNavigationIcon.addEventListener('click', () => {
+  mobileNavigationSliede.style.display = 'flex';
+});
+mobileNavigationCloseIcon.addEventListener('click', () => {
+  mobileNavigationSliede.style.display = 'none';
 });
