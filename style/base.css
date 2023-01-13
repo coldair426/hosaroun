@@ -243,12 +243,10 @@ body {
     display: none;
   }
   /* sticky mobile header */
-  .sticky-mobile {
-    position: fixed;
-    top: 0px;
-  }
 
   .header {
+    position: sticky;
+    top: 0px;
     height: 60px;
     margin: 0px;
     justify-content: space-between;
