@@ -39,7 +39,7 @@ body {
   background-color: white;
   justify-content: center;
   align-items: center;
-  transition-duration: 100ms;
+  transition-duration: 400ms;
   transition-timing-function: ease;
 }
 .sticky-header__title {
@@ -296,7 +296,8 @@ body {
     width: 0%;
     top: 0px;
     right: 0px;
-    transition: 400ms;
+    transition-duration: 100ms;
+    transition-timing-function: ease;
   }
   .header__mobile-navigation-close {
   }
