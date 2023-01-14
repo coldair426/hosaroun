@@ -26,7 +26,8 @@ body {
 .sticky-header-selecter {
 }
 .sticky-header-none {
-  display: none;
+  visibility: hidden;
+  height: 0px;
 }
 .sticky-header {
   top: 0;
@@ -38,6 +39,7 @@ body {
   background-color: white;
   justify-content: center;
   align-items: center;
+  transition: 400ms;
 }
 .sticky-header__title {
   font-size: 30px;
@@ -284,19 +286,18 @@ body {
     height: 15px;
   }
   .header__mobile-navigation-slide {
-    display: none;
+    visibility: hidden;
+    display: flex;
     position: fixed;
     flex-direction: column;
     background-color: white;
     height: 100%;
-    width: 60%;
+    width: 0%;
     top: 0px;
     right: 0px;
+    transition: 400ms;
   }
   .header__mobile-navigation-close {
-    display: flex;
-    position: relative;
-    justify-content: right;
   }
   .header__mobile-navigation-close-icon {
     margin: 20px;

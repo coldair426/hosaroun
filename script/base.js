@@ -27,8 +27,17 @@ window.addEventListener('scroll', () => {
 
 // 모바일 네비게이션 메뉴.
 mobileNavigationIcon.addEventListener('click', () => {
-  mobileNavigationSliede.style.display = 'flex';
+  mobileNavigationSliede.style.visibility = 'visible';
+  mobileNavigationSliede.style.width = '60%';
 });
 mobileNavigationCloseIcon.addEventListener('click', () => {
-  mobileNavigationSliede.style.display = 'none';
+  mobileNavigationSliede.style.visibility = 'hidden';
+  mobileNavigationSliede.style.width = '0px';
+});
+// 모바일 네비게이션 메뉴가 펼쳐져 있을 때, 메인을 클릭하면 메뉴 닫힘.
+document.querySelector('main').addEventListener('click', () => {
+  if ((mobileNavigationSliede.style.visibility = 'visible')) {
+    mobileNavigationSliede.style.visibility = 'hidden';
+    mobileNavigationSliede.style.width = '0px';
+  }
 });
