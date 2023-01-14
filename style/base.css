@@ -39,7 +39,8 @@ body {
   background-color: white;
   justify-content: center;
   align-items: center;
-  transition: 400ms;
+  transition-duration: 100ms;
+  transition-timing-function: ease;
 }
 .sticky-header__title {
   font-size: 30px;
@@ -190,7 +191,7 @@ body {
   }
 
   .header {
-    margin: 18px 0px 0px 0px;
+    margin: 25px 0px 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,7 +206,7 @@ body {
     font-size: 10px;
   }
   .navigation {
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 10px 0px;
   }
   .navigation__items {
     font-size: 20px;
