@@ -6,8 +6,8 @@ const navigation = document.getElementsByClassName('navigation')[0];
 const mobileNavigationIcon = document.getElementsByClassName(
   'header__mobile-navigation-icon'
 )[0];
-const mobileNavigationCloseIcon = document.getElementsByClassName(
-  'header__mobile-navigation-close-icon'
+const mobileNavigationClose = document.getElementsByClassName(
+  'header__mobile-navigation-close'
 )[0];
 const mobileNavigationSliede = document.getElementsByClassName(
   'header__mobile-navigation-slide'
@@ -30,7 +30,7 @@ mobileNavigationIcon.addEventListener('click', () => {
   mobileNavigationSliede.style.visibility = 'visible';
   mobileNavigationSliede.style.width = '60%';
 });
-mobileNavigationCloseIcon.addEventListener('click', () => {
+mobileNavigationClose.addEventListener('click', () => {
   mobileNavigationSliede.style.visibility = 'hidden';
   mobileNavigationSliede.style.width = '0px';
 });
