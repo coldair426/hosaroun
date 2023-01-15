@@ -132,6 +132,7 @@ body {
   margin: 0px 30px;
 }
 .footer {
+  height: 155px;
   width: 100%;
   font-size: 15px;
   font-weight: 900;
@@ -172,7 +173,7 @@ body {
 @media all and (max-width: 1024px) {
   /* sticky pc header */
   .sticky-header {
-    height: 40px;
+    height: 45px;
   }
   .sticky-header__title {
     font-size: 20px;
@@ -216,8 +217,9 @@ body {
     margin: 0px 20px;
   }
   .footer {
+    height: 125px;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 25px;
   }
   .footer__container {
     width: 250px;
