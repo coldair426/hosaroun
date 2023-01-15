@@ -77,8 +77,8 @@
   .main__sentence-horizontal {
     width: 100%;
     margin: 0px 0px 100px 0px;
-    letter-spacing: 1px;
     font-size: 20px;
+    letter-spacing: 1px;
     line-height: 35px;
   }
   .main__image-vertical2 {
