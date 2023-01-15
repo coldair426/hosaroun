@@ -287,6 +287,7 @@ body {
     right: 0px;
     transition-duration: 100ms;
     transition-timing-function: ease;
+    border-left: 1px gainsboro solid;
   }
   .header__mobile-navigation-close {
     display: flex;
