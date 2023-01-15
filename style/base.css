@@ -189,7 +189,6 @@ body {
   .sticky-header__sns-icon {
     height: 15px;
   }
-
   .header {
     margin: 25px 0px 10px 0px;
     display: flex;
@@ -259,7 +258,7 @@ body {
   .header__title {
     letter-spacing: 11px;
     font-size: 23px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
   .header__sns-logos-pc {
     display: none;
