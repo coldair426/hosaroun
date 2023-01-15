@@ -30,6 +30,7 @@
 .main__image-sentence-wrapper {
   display: flex;
   align-items: center;
+  margin: 200px 0px 0px 0px;
 }
 .main__sentence-horizontal {
   width: 60%;
@@ -57,12 +58,9 @@
 /* 768px 미만 */
 @media all and (max-width: 767px) {
   .main__sentence {
-    margin: 100px 0px 100px 0px;
-    text-align: center;
     font-size: 20px;
-    font-weight: 900;
-    line-height: 35px;
     letter-spacing: 1px;
+    line-height: 35px;
   }
   .main__sentence-impact {
     font-size: 25px;
@@ -70,17 +68,14 @@
   }
   .main__image-sentence-wrapper {
     display: block;
-    align-items: center;
-    justify-items: center;
+    margin: 100px 0px 0px 0px;
   }
   .main__sentence-horizontal {
     width: 100%;
-    margin: 100px 0px 0px 0px;
+    margin: 0px 0px 100px 0px;
+    letter-spacing: 1px;
     font-size: 20px;
-    font-weight: 900;
     line-height: 35px;
-    text-align: center;
-    letter-spacing: 0px;
   }
   .main__image-vertical2 {
     width: 100%;

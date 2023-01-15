@@ -138,6 +138,7 @@ body {
   line-height: 30px;
   display: flex;
   justify-content: right;
+  border-top: 1px gainsboro solid;
 }
 .footer__container {
   width: 300px;
