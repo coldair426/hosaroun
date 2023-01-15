@@ -39,6 +39,7 @@ body {
   background-color: white;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px gainsboro solid;
   transition-duration: 400ms;
   transition-timing-function: ease;
 }
