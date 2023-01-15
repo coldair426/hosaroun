@@ -58,6 +58,9 @@
 /*---------------------------------------------------------------*/
 /* 768px 미만 */
 @media all and (max-width: 767px) {
+  .main {
+    border-top: none;
+  }
   .main__sentence {
     font-size: 20px;
     letter-spacing: 1px;
