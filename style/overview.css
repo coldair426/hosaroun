@@ -62,8 +62,7 @@
     font-size: 20px;
     font-weight: 900;
     line-height: 35px;
-
-    letter-spacing: 0px;
+    letter-spacing: 1px;
   }
   .main__sentence-impact {
     font-size: 25px;
@@ -74,13 +73,12 @@
     align-items: center;
     justify-items: center;
   }
-
   .main__sentence-horizontal {
     width: 100%;
-    margin: 100px 0px 100px 0px;
+    margin: 100px 0px 0px 0px;
     font-size: 20px;
     font-weight: 900;
-    line-height: 50px;
+    line-height: 35px;
     text-align: center;
     letter-spacing: 0px;
   }
