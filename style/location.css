@@ -1,3 +1,12 @@
+.img-link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 18px;
+    color: #12b886;
+    cursor: pointer;
+}
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -41,7 +50,6 @@
     flex-direction: column;
     width: 80%;
     height: 100px;
-    
 }
 .container__description--hypen {
     width: 300px;
@@ -58,7 +66,9 @@
     line-height: 20px;
     vertical-align: middle;
 }
-
+.container__description__text-area > input:focus {
+    outline: none;
+}
 .container__description--hypen::before {
     display: block;
     content: "";

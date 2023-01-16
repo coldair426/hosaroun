@@ -18,26 +18,28 @@
       <div class="sticky-header__title">호사로운</div>
     </a>
     <div class="sticky-header__navigation">
-      <div class="sticky-header__items">
-        <a class="sticky-header__item" href="">
-          <div>Overview</div>
-        </a>
-        <a class="sticky-header__item" href="">
-          <div>Rooms</div>
-        </a>
-        <a class="sticky-header__item" href="./location.html">
-          <div>Location</div>
-        </a>
-        <a class="sticky-header__item" href="">
-          <div>Book now</div>
-        </a>
-        <a class="sticky-header__item" href="">
-          <div>Contact us</div>
-        </a>
-      </div>
+      <ul class="sticky-header__items">
+        <li>
+          <a class="sticky-header__item" href="./overview.html"> Overview </a>
+        </li>
+        <li>
+          <a class="sticky-header__item" href="./rooms.html"> Rooms </a>
+        </li>
+        <li>
+          <a class="sticky-header__item" href="./location.html"> Location </a>
+        </li>
+        <li>
+          <a class="sticky-header__item" href="./booknow.html"> Book now </a>
+        </li>
+        <li>
+          <a class="sticky-header__item" href="./contactus.html">
+            Contact us
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="sticky-header__sns-logos">
-      <a class="sticky-header__sns-logo" href="https://www.daum.net">
+      <a class="sticky-header__sns-logo" href="http://pf.kakao.com/_WnYaxj/chat">
         <img class="sticky-header__sns-icon" src="./icon_src/kakaotalk-logo.png" alt="kakaotalk" />
       </a>
       <a class="sticky-header__sns-logo" href="https://www.instagram.com/hosaroun/">
@@ -47,60 +49,88 @@
   </div>
 
   <header class="header">
-    <div class="header__sns-logos-moblie">
-      <a class="header__sns-logo-moblie" href="https://www.instagram.com/hosaroun/">
-        <img class="header__sns-icon-moblie" src="./icon_src/instagram-logo_black.png" alt="Instagram" />
-      </a>
-      <a class="header__sns-logo-moblie" href="https://www.daum.net">
-        <img class="header__sns-icon-moblie" src="./icon_src/kakaotalk-logo.png" alt="kakaotalk" />
-      </a>
-    </div>
-    <!-- 정렬을 위한 빈 태그 -->
-    <div class="header__empty-tag"></div>
-    <a href="./index.html">
-      <div class="header__title">호사로운</div>
-    </a>
+    <div class="header__title"><a href="./index.html">호사로운</a></div>
     <div class="header__sns-logos-pc">
-      <a class="header__sns-logo-pc" href="https://www.daum.net">
+      <a class="header__sns-logo-pc" href="http://pf.kakao.com/_WnYaxj/chat">
         <img class="header__sns-icon-pc" src="./icon_src/kakaotalk-logo.png" alt="kakaotalk" />
         <div class="header__sns-letter-pc">Kakaotalk</div>
       </a>
-      <a class="header__sns-logo-pc header__sns-logo-pc--margin" href="https://www.instagram.com/hosaroun/">
+      <a class="header__sns-logo-pc" href="https://www.instagram.com/hosaroun/">
         <img class="header__sns-icon-pc" src="./icon_src/instagram-logo_black.png" alt="Instagram" />
         <div class="header__sns-letter-pc">Instagram</div>
       </a>
     </div>
-    <a class="header__navigation-mobile" href="">
-      <nav>
-        <img class="header__navigation-icon-mobile" src="./icon_src/hamburger.png" alt="menu" />
-      </nav>
-    </a>
+    <nav class="header__mobile-navigation">
+      <button class="header__mobile-navigation-open">
+        <img class="header__mobile-navigation-icon" src="./icon_src/hamburger.png" alt="menu" />
+      </button>
+      <div class="header__mobile-navigation-slide">
+        <button class="header__mobile-navigation-close">
+          <img class="header__mobile-navigation-close-icon" src="./icon_src/x_square_icon.png" alt="메뉴닫기" />
+        </button>
+        <ul class="header__mobile-navigation-items">
+          <li>
+            <a class="header__mobile-navigation-item" href="./overview.html">
+              Overview
+            </a>
+          </li>
+          <li>
+            <a class="header__mobile-navigation-item" href="./rooms.html">
+              Rooms
+            </a>
+          </li>
+          <li>
+            <a class="header__mobile-navigation-item" href="./location.html">
+              Location
+            </a>
+          </li>
+          <li>
+            <a class="header__mobile-navigation-item" href="./booknow.html">
+              Book now
+            </a>
+          </li>
+          <li>
+            <a class="header__mobile-navigation-item" href="./contactus.html">
+              Contact us
+            </a>
+          </li>
+        </ul>
+        <div class="header__mobile-navigation-sns-logos">
+          <a class="header__mobile-navigation-sns-logo" href="http://pf.kakao.com/_WnYaxj/chat">
+            <img class="header__mobile-navigation-sns-icon" src="./icon_src/kakaotalk-logo.png" alt="kakaotalk" />
+            <div class="header__mobile-navigation-sns-letter">Kakaotalk</div>
+          </a>
+          <a class="header__mobile-navigation-sns-logo" href="https://www.instagram.com/hosaroun/">
+            <img class="header__mobile-navigation-sns-icon" src="./icon_src/instagram-logo_black.png" alt="Instagram" />
+            <div class="header__mobile-navigation-sns-letter">Instagram</div>
+          </a>
+        </div>
+      </div>
+    </nav>
   </header>
   <nav class="navigation">
-    <div class="navigation__items">
-      <a class="navigation__item" href="">
-        <div>Overview</div>
-      </a>
-      <a class="navigation__item" href="">
-        <div>Rooms</div>
-      </a>
-      <a class="navigation__item" href="./location.html">
-        <div>Location</div>
-      </a>
-      <a class="navigation__item" href="">
-        <div>Book now</div>
-      </a>
-      <a class="navigation__item" href="">
-        <div>Contact us</div>
-      </a>
-    </div>
+    <ul class="navigation__items">
+      <li>
+        <a class="navigation__item" href="./overview.html"> Overview </a>
+      </li>
+      <li><a class="navigation__item" href="./rooms.html"> Rooms </a></li>
+      <li>
+        <a class="navigation__item" href="./location.html"> Location </a>
+      </li>
+      <li>
+        <a class="navigation__item" href="./booknow.html"> Book now </a>
+      </li>
+      <li>
+        <a class="navigation__item" href="./contactus.html"> Contact us </a>
+      </li>
+    </ul>
   </nav>
   <main>
     <div id="location-main" class="location-container flex-col">
       <!-- 
-        <div class="location-container__header flex-row">
-            <span>오시는길</span>
-        </div> -->
+          <div class="location-container__header flex-row">
+              <span>오시는길</span>
+          </div> -->
       <div class="location-container__location">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6926.375790233826!2d127.77368363465354!3d37.88488784509862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3562e562c1dde0ef%3A0x1e6c406b5da70c0a!2z6rCV7JuQ64-EIOy2mOyynOyLnCDrj5nrqbQg7Iic7ZmY64yA66GcIDExNTQtMjA!5e0!3m2!1sko!2skr!4v1673002855026!5m2!1sko!2skr"
@@ -115,15 +145,18 @@
           주소
         </div>
         <div class="flex-row container__description__text-area">
-          <div class="container__description--text">강원도 춘천시 동면 순환대로 1154-48</div><button onclick="handleOnclickCopyBtn()"><img width="18px" height="18px"
-            src="./img_src/img_raw/clipboard_01.svg" alt="clipboard" />복사</button>
+          <!-- <input value="강원도 춘천시 동면 순환대로 1154-48" style="border:0px;font-size: 16px;" readonly/> -->
+          <div class="container__description--text">강원도 춘천시 동면 순환대로 1154-48</div>
+          <button class="img-link-btn" onclick="handleOnclickCopyBtn()">
+            <img width="16px" height="16px" src="./img_src/img_raw/clipboard_01.svg" alt="clipboard" />복사
+          </button>
         </div>
       </div>
       <div class="location-container__description">
         <div class="container__description--hypen">
           문의
         </div>
-        <div class="container__description--text">010-8790-0835</div>
+        <div class="container__description--text">010-8790-****</div>
       </div>
       <div class="location-container__description">
         <div class="container__description--hypen">
@@ -147,9 +180,9 @@
         주소:
         <a href="https://naver.me/xjL6SB3Z">강원 춘천시 동면 순환대로 1154-48</a>
       </div>
-      <div>번호: <a href="tel:010-8790-0835">010-8790-0835</a></div>
+      <div>번호: <a href="tel:010-8790-****">010-8790-****</a></div>
       <div class="footer__sns-logos">
-        <a class="footer__sns-logo" href="https://www.daum.net">
+        <a class="footer__sns-logo" href="http://pf.kakao.com/_WnYaxj/chat">
           <img class="footer__sns-icon" src="./icon_src/kakaotalk-logo.png" alt="kakaotalk" />
           <div class="footer__sns-letter">Kakaotalk</div>
         </a>
@@ -163,8 +196,23 @@
   <script src="./script/base.js"></script>
   <script>
     const handleOnclickCopyBtn = () => {
-      navigator.clipboard.writeText("test");
-      alert("test");
+      /* navigator 권한확인 후 권한 없을 시 execCommand 추가 예정 */
+      const copyTextArea = document.createElement("textarea");
+      copyTextArea.value = "강원 춘천시 동면 순환대로 1154-48";
+      copyTextArea.style.top = "0";
+      copyTextArea.style.left = "0";
+      copyTextArea.style.position = "fixed";
+      document.body.appendChild(copyTextArea);
+      copyTextArea.focus();
+      copyTextArea.select();
+
+      try {
+        const isCopySuccessed = document.execCommand("copy");
+      } catch (err) {
+        console.error("텍스트 복사에 실패했습니다.", err);
+      }
+      // navigator.clipboard.writeText(copyTextArea);
+      document.body.removeChild(copyTextArea);
     }
 
   </script>
