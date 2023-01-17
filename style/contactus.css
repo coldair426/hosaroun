@@ -35,12 +35,12 @@
   display: block;
   content: '';
   width: 5px;
-  height: 20px;
+  height: 25px;
   background-color: #616161;
   margin-right: 10px;
 }
 .contact__value {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 15px;
   font-size: 17px;
   font-weight: 900;

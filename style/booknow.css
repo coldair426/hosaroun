@@ -1,0 +1,17 @@
+.main {
+}
+.main__booknow {
+  width: 80%;
+  background-color: #efecec;
+}
+h2::before {
+  display: block;
+  content: '';
+  width: 5px;
+  height: 20px;
+  background-color: #616161;
+  margin-right: 10px;
+}
+h1 {
+  display: flex;
+}
