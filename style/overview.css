@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   border-top: 1px gainsboro solid;
+  border-bottom: 1px gainsboro solid;
 }
 .main__sentence {
   margin: 200px 0px 200px 0px;

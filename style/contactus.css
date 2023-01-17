@@ -1,0 +1,114 @@
+.main {
+  border-top: 1px gainsboro solid;
+  border-bottom: 1px gainsboro solid;
+}
+.main__contents {
+  position: relative;
+}
+.main__img {
+  width: 100%;
+}
+.main__contact {
+  width: 70%;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+.main__contact > div {
+  margin: 0px 60px 0px 60px;
+}
+.contact__item {
+  margin: 100px 0px 100px 0px;
+}
+.contact__tiltle {
+  display: flex;
+  align-items: center;
+  letter-spacing: 5px;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0;
+}
+.contact__tiltle::before {
+  display: block;
+  content: '';
+  width: 5px;
+  height: 20px;
+  background-color: #616161;
+  margin-right: 10px;
+}
+.contact__value {
+  margin-top: 50px;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 1024px 이하 */
+@media all and (max-width: 1024px) {
+  .main__contact > div {
+    margin: 0px 30px 0px 30px;
+  }
+  .contact__item {
+    margin: 70px 0px 70px 0px;
+  }
+  .contact__tiltle {
+    font-size: 20px;
+  }
+  .contact__value {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 768px 미만 */
+@media all and (max-width: 767px) {
+  .main__contact {
+    width: 50%;
+    flex-direction: column;
+    top: 50%;
+    left: 65%;
+  }
+  .main__contact > div {
+    margin: 0px;
+  }
+  .contact__item {
+    margin: 0px 0px 30px 0px;
+  }
+  .contact__tiltle {
+    font-size: 15px;
+  }
+  .contact__tiltle::before {
+    height: 13px;
+    margin-right: 5px;
+  }
+  .contact__value {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+}
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 280px 미만 */
+@media all and (max-width: 280px) {
+  .main__contact {
+    left: 60%;
+  }
+  .contact__item {
+    margin: 0px 0px 20px 0px;
+  }
+  .contact__value {
+    margin-top: 5px;
+  }
+}

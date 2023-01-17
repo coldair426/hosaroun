@@ -30,6 +30,7 @@ body {
   height: 0px;
 }
 .sticky-header {
+  z-index: 1;
   top: 0;
   display: flex;
   position: fixed;
@@ -73,7 +74,6 @@ body {
   height: 20px;
   margin-left: 10px;
 }
-
 .header {
   width: 100%;
   height: 55px;
@@ -139,7 +139,6 @@ body {
   line-height: 30px;
   display: flex;
   justify-content: right;
-  border-top: 1px gainsboro solid;
 }
 .footer__container {
   width: 300px;
@@ -249,8 +248,8 @@ body {
     display: none;
   }
   /* sticky mobile header */
-
   .header {
+    z-index: 1;
     position: sticky;
     top: 0px;
     height: 50px;
