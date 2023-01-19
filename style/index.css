@@ -1,8 +1,6 @@
 .main {
   width: 100%;
   line-height: 0px;
-  border-top: 1px gainsboro solid;
-  border-bottom: 1px gainsboro solid;
 }
 .main__img-line {
   display: flex;

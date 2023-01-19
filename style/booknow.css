@@ -1,8 +1,7 @@
 .main {
   display: flex;
   justify-content: center;
-  border-top: 1px gainsboro solid;
-  border-bottom: 1px gainsboro solid;
+  background-color: #d2d2d2;
 }
 .main__booknow {
   width: 75%;

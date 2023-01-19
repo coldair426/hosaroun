@@ -1,6 +1,4 @@
 .main {
-  border-top: 1px gainsboro solid;
-  border-bottom: 1px gainsboro solid;
 }
 .main__contents {
   position: relative;
