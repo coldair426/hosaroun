@@ -148,7 +148,7 @@
           <!-- <input value="강원도 춘천시 동면 순환대로 1154-48" style="border:0px;font-size: 16px;" readonly/> -->
           <div class="container__description--text">강원도 춘천시 동면 순환대로 1154-48</div>
           <button class="img-link-btn" onclick="handleOnclickCopyBtn()">
-            <img width="16px" height="16px" src="./img_src/img_raw/clipboard_01.svg" alt="clipboard" />복사
+            <img width="16px" height="16px" src="./icon_src/clipboard_01.svg" alt="clipboard" />복사
           </button>
         </div>
       </div>
@@ -193,6 +193,9 @@
       </div>
     </div>
   </footer>
+  <div id="copy-snackbar" class="flex-row snackbar-container">
+    복사가 완료되었습니다.
+  </div>
   <script src="./script/base.js"></script>
   <script>
     const handleOnclickCopyBtn = () => {
@@ -208,6 +211,10 @@
 
       try {
         const isCopySuccessed = document.execCommand("copy");
+        const snackbar = document.getElementById("copy-snackbar")
+        snackbar.className = "show-snackbar flex-row snackbar-container";
+        setTimeout(() => { snackbar.className = snackbar.className.replace("show-snackbar", ""); }, 2500);
+
       } catch (err) {
         console.error("텍스트 복사에 실패했습니다.", err);
       }
