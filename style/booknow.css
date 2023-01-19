@@ -1,17 +1,46 @@
 .main {
+  display: flex;
+  justify-content: center;
+  border-top: 1px gainsboro solid;
+  border-bottom: 1px gainsboro solid;
 }
 .main__booknow {
-  width: 80%;
-  background-color: #efecec;
+  width: 75%;
+  margin: 50px 0px;
 }
-h2::before {
+.main__booknow > div {
+  margin: 30px 0px;
+}
+.main__booknow h1::before,
+.main__booknow h2::before {
   display: block;
   content: '';
   width: 5px;
-  height: 20px;
+  height: 25px;
   background-color: #616161;
   margin-right: 10px;
 }
-h1 {
+.main__booknow h1,
+.main__booknow h2 {
   display: flex;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 25px 0px;
+  letter-spacing: 2px;
+}
+.main__booknow h3 {
+  margin: 10px 0px 10px 20px;
+  font-size: 23px;
+}
+.main__booknow li {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.booknow__booking {
+}
+.booknow__space {
+}
+.booknow__check {
+}
+.booknow__rule {
 }
