@@ -8,7 +8,7 @@
   margin: 50px 0px;
 }
 .main__booknow > div {
-  margin: 30px 0px;
+  margin: 60px 0px;
 }
 .main__booknow h1::before,
 .main__booknow h2::before {
@@ -28,18 +28,78 @@
   letter-spacing: 2px;
 }
 .main__booknow h3 {
-  margin: 10px 0px 10px 20px;
-  font-size: 23px;
+  margin: 20px 0px 20px 20px;
+  font-size: 21px;
+  font-weight: 900;
 }
 .main__booknow li {
   font-size: 20px;
-  margin: 10px 0px;
+  margin: 10px 0px 10px 40px;
 }
-.booknow__booking {
+.booknow__impact {
+  font-weight: 900;
 }
-.booknow__space {
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 1024px 이하 */
+@media all and (max-width: 1024px) {
+  .main__booknow > div {
+    margin: 30px 0px;
+  }
+  .main__booknow h1::before,
+  .main__booknow h2::before {
+    height: 20px;
+    margin-right: 7px;
+  }
+  .main__booknow h1,
+  .main__booknow h2 {
+    font-size: 20px;
+  }
+  .main__booknow h3 {
+    font-size: 17px;
+  }
+  .main__booknow li {
+    font-size: 15px;
+  }
 }
-.booknow__check {
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 768px 미만 */
+@media all and (max-width: 767px) {
+  .main__booknow {
+    margin: 30px 0px;
+  }
+  .main__booknow > div {
+    margin: 10px 0px;
+  }
+  .main__booknow h1::before,
+  .main__booknow h2::before {
+    height: 15px;
+  }
+  .main__booknow h1,
+  .main__booknow h2 {
+    font-size: 15px;
+    margin: 15px 0px;
+  }
+  .main__booknow h3 {
+    margin: 12px 0px 12px 12px;
+    font-size: 14px;
+  }
+  .main__booknow li {
+    font-size: 13px;
+    margin: 5px 0px 5px 20px;
+    line-height: 18px;
+  }
 }
-.booknow__rule {
+
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 280px 미만 */
+@media all and (max-width: 280px) {
+  .main__booknow {
+    margin: 20px 0px;
+  }
 }
