@@ -4,7 +4,7 @@
   background-color: #d2d2d2;
 }
 .main__booknow {
-  width: 75%;
+  width: 60%;
   margin: 50px 0px;
 }
 .main__booknow > div {
@@ -44,6 +44,9 @@
 /*---------------------------------------------------------------*/
 /* 1024px 이하 */
 @media all and (max-width: 1024px) {
+  .main__booknow {
+    width: 75%;
+  }
   .main__booknow > div {
     margin: 30px 0px;
   }

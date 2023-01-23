@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #d2d2d2;
+}
+.main__rooms {
+  width: 60%;
+  margin: 50px 0px;
+}
+.main__rooms > div {
+  margin: 60px 0px;
+}
+.main__rooms h1::before {
+  display: block;
+  content: '';
+  width: 5px;
+  height: 25px;
+  background-color: #616161;
+  margin-right: 10px;
+}
+.main__rooms h1 {
+  display: flex;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 25px 0px;
+  letter-spacing: 2px;
+}
+.img__wrapper {
+  width: 80%;
+  margin: 25px 10%;
+  position: relative;
+  width: 100%;
+}
+.img__before-button {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+.img__after-button {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+.main__rooms img {
+  width: 100%;
+  transition: 1000ms;
+}
