@@ -2,7 +2,7 @@
 window.addEventListener('scroll', () => {
   if (
     window.pageYOffset >
-    document.querySelector('.header').offsetHeight +
+    document.querySelector('.navigation').offsetHeight +
       document.querySelector('.navigation').offsetTop
   ) {
     document.querySelector('.sticky-header').style.visibility = 'visible';

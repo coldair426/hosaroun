@@ -37,8 +37,8 @@ body {
   border-bottom: 1px solid #e5e5e5;
   justify-content: center;
   align-items: center;
-  /* transition: height 50ms;
-  transition-timing-function: ease-in; */
+  transition: height 50ms;
+  transition-timing-function: ease-in;
   overflow: hidden;
 }
 .sticky-header__logo-title {
