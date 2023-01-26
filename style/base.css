@@ -27,7 +27,7 @@ body {
 /* sticky pc header */
 .sticky-header {
   display: flex;
-  position: sticky;
+  position: fixed;
   visibility: hidden;
   height: 0px;
   width: 100%;
