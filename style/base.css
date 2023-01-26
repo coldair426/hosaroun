@@ -28,6 +28,7 @@ body {
 .sticky-header {
   display: flex;
   position: sticky;
+  position: -webkit-sticky;
   visibility: hidden;
   height: 0px;
   width: 100%;
@@ -40,7 +41,6 @@ body {
   transition-duration: 50ms;
   transition-timing-function: ease-in;
   overflow: hidden;
-  -webkit-backface-visibility: hidden;
 }
 .sticky-header__logo-title {
   display: flex;
