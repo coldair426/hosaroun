@@ -1,7 +1,7 @@
 .main {
   display: flex;
   justify-content: center;
-  background-color: #d2d2d2;
+  background-color: #e5e5e5;
 }
 .main__booknow {
   width: 60%;
@@ -16,7 +16,7 @@
   content: '';
   width: 5px;
   height: 25px;
-  background-color: #616161;
+  background-color: #14213d;
   margin-right: 10px;
 }
 .main__booknow h1,

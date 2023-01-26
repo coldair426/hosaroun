@@ -1,7 +1,4 @@
 const header = document.getElementsByClassName('header')[0]; // header get.
-const stickyHeader = document.getElementsByClassName(
-  'sticky-header-selecter'
-)[0];
 const navigation = document.getElementsByClassName('navigation')[0];
 const mobileNavigationIcon = document.getElementsByClassName(
   'header__mobile-navigation-icon'
@@ -13,15 +10,14 @@ const mobileNavigationSliede = document.getElementsByClassName(
   'header__mobile-navigation-slide'
 )[0];
 
-// sticky pc header
-stickyHeader.classList.add('sticky-header-none');
+// sticky pc header.
 window.addEventListener('scroll', () => {
   if (window.pageYOffset > header.offsetHeight + navigation.offsetTop) {
-    stickyHeader.classList.remove('sticky-header-none');
-    stickyHeader.classList.add('sticky-header');
+    document.querySelector('.sticky-header').style.visibility = 'visible';
+    document.querySelector('.sticky-header').style.height = '60px';
   } else {
-    stickyHeader.classList.add('sticky-header-none');
-    stickyHeader.classList.remove('sticky-header');
+    document.querySelector('.sticky-header').style.visibility = 'hidden';
+    document.querySelector('.sticky-header').style.height = '0px';
   }
 });
 
@@ -39,5 +35,54 @@ document.querySelector('main').addEventListener('click', () => {
   if ((mobileNavigationSliede.style.visibility = 'visible')) {
     mobileNavigationSliede.style.visibility = 'hidden';
     mobileNavigationSliede.style.width = '0px';
+  }
+});
+
+// 현재 페이지 표시.
+document.addEventListener('DOMContentLoaded', () => {
+  if (document.title === '호사로운 Overview') {
+    document.querySelector('.navigation__overview-mark').style.visibility =
+      'visible';
+    document.querySelector(
+      '.header__mobile-navigation-overview-mark'
+    ).style.visibility = 'visible';
+    document.querySelector('.sticky-header__overview-mark').style.visibility =
+      'visible';
+  }
+  if (document.title === '호사로운 Rooms') {
+    document.querySelector('.navigation__rooms-mark').style.visibility =
+      'visible';
+    document.querySelector(
+      '.header__mobile-navigation-rooms-mark'
+    ).style.visibility = 'visible';
+    document.querySelector('.sticky-header__rooms-mark').style.visibility =
+      'visible';
+  }
+  if (document.title === '호사로운 Location') {
+    document.querySelector('.navigation__location-mark').style.visibility =
+      'visible';
+    document.querySelector(
+      '.header__mobile-navigation-location-mark'
+    ).style.visibility = 'visible';
+    document.querySelector('.sticky-header__location-mark').style.visibility =
+      'visible';
+  }
+  if (document.title === '호사로운 Book now') {
+    document.querySelector('.navigation__booknow-mark').style.visibility =
+      'visible';
+    document.querySelector(
+      '.header__mobile-navigation-booknow-mark'
+    ).style.visibility = 'visible';
+    document.querySelector('.sticky-header__booknow-mark').style.visibility =
+      'visible';
+  }
+  if (document.title === '호사로운 Contact us') {
+    document.querySelector('.navigation__contactus-mark').style.visibility =
+      'visible';
+    document.querySelector(
+      '.header__mobile-navigation-contactus-mark'
+    ).style.visibility = 'visible';
+    document.querySelector('.sticky-header__contactus-mark').style.visibility =
+      'visible';
   }
 });

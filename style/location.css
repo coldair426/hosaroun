@@ -1,5 +1,5 @@
 main {
-  background-color: #d2d2d2;
+  background-color: #e5e5e5;
 }
 .img-link-btn {
   display: flex;
@@ -44,7 +44,7 @@ main {
 }
 
 .location-container__header > span {
-  color: #616161;
+  color: #000000;
 }
 
 .location-container__description {
@@ -73,7 +73,6 @@ main {
   margin-left: 40px;
   margin-top: 15px;
   line-height: 25px;
-  font-weight: 900;
   vertical-align: middle;
 }
 .container__description__text-area > input:focus {
@@ -84,7 +83,7 @@ main {
   content: '';
   width: 5px;
   height: 25px;
-  background-color: #616161;
+  background-color: #14213d;
   margin-right: 10px;
 }
 
@@ -95,12 +94,13 @@ main {
 }
 
 .snackbar-container {
+  color: white;
   visibility: hidden;
   width: 400px;
   height: 50px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
-  background-color: #ffdb58;
+  background-color: #fca311;
   position: fixed;
   bottom: 15px;
   left: 50%;
@@ -161,40 +161,22 @@ main {
 /* 1024px 이하 */
 @media all and (max-width: 1024px) {
   .location-container__description {
-    display: flex;
-    flex-direction: column;
     width: 77%;
-    height: 100%;
-    margin-top: 60px;
-    margin-bottom: 0px;
   }
   .location-container__description-2nd {
     margin-top: 30px;
   }
   .container__description--hypen {
-    width: 300px;
-    display: flex;
-    height: 20px;
-    align-items: center;
-    margin: 0 0 10px 0;
     font-size: 20px;
-    font-weight: 900;
     letter-spacing: 2px;
   }
   .container__description--text {
     font-size: 15px;
-    margin-left: 40px;
     margin-top: 10px;
     line-height: 15px;
-    font-weight: 900;
-    vertical-align: middle;
   }
   .container__description--hypen::before {
-    display: block;
-    content: '';
-    width: 5px;
     height: 20px;
-    background-color: #616161;
     margin-right: 7px;
   }
 }
@@ -205,49 +187,26 @@ main {
 /* 768px 미만 */
 @media all and (max-width: 767px) {
   #location-main {
-    /* height: 70vh; */
     padding: 30px 5px 35px 5px;
   }
   .location-container {
-    padding: 0 10px;
     margin: 0;
   }
   .location-container__description {
-    display: flex;
-    flex-direction: column;
     width: 80%;
-    height: 100%;
     margin-top: 45px;
-    margin-bottom: 0px;
-  }
-  .location-container__description-2nd {
-    margin-top: 30px;
   }
   .container__description--hypen {
-    width: 300px;
-    display: flex;
-    height: 20px;
-    align-items: center;
     margin: 0px;
     font-size: 15px;
-    font-weight: 900;
-    letter-spacing: 2px;
   }
   .container__description--text {
     font-size: 13px;
     margin-left: 20px;
-    margin-top: 10px;
     line-height: 17px;
-    font-weight: 900;
-    vertical-align: middle;
   }
   .container__description--hypen::before {
-    display: block;
-    content: '';
-    width: 5px;
     height: 15px;
-    background-color: #616161;
-    margin-right: 7px;
   }
   .snackbar-container {
     width: 80vw;
