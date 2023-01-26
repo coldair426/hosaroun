@@ -40,6 +40,7 @@ body {
   transition-duration: 50ms;
   transition-timing-function: ease-in;
   overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 .sticky-header__logo-title {
   display: flex;
