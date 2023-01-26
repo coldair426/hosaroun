@@ -28,7 +28,6 @@ body {
 .sticky-header {
   display: flex;
   position: sticky;
-  position: -webkit-sticky;
   visibility: hidden;
   height: 0px;
   width: 100%;
@@ -38,7 +37,7 @@ body {
   border-bottom: 1px solid #e5e5e5;
   justify-content: center;
   align-items: center;
-  transition-duration: 50ms;
+  transition: height 50ms;
   transition-timing-function: ease-in;
   overflow: hidden;
 }
