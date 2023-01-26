@@ -33,6 +33,10 @@
   display: flex;
   justify-content: space-between;
 }
+.img__before-button,
+.img__after-button {
+  cursor: pointer;
+}
 .img__button-icon {
   width: 25px;
   height: 40px;
