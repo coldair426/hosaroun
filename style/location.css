@@ -1,15 +1,6 @@
 main {
   background-color: #e5e5e5;
 }
-.img-link-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  line-height: 18px;
-  color: #12b886;
-  cursor: pointer;
-}
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -28,25 +19,6 @@ main {
   padding: 0 10px;
   margin: 10px 0;
 }
-
-#location-main {
-  /* height: 70vh; */
-  padding: 30px 5px 60px 5px;
-}
-
-.location-container__header {
-  width: 100%;
-  height: 30px;
-}
-
-.location-container__location {
-  width: 80%;
-}
-
-.location-container__header > span {
-  color: #000000;
-}
-
 .location-container__description {
   display: flex;
   flex-direction: column;
@@ -65,19 +37,6 @@ main {
   font-weight: 900;
   letter-spacing: 2px;
 }
-.container__description__text-area {
-  justify-content: left;
-}
-.container__description--text {
-  font-size: 20px;
-  margin-left: 40px;
-  margin-top: 15px;
-  line-height: 25px;
-  vertical-align: middle;
-}
-.container__description__text-area > input:focus {
-  outline: none;
-}
 .container__description--hypen::before {
   display: block;
   content: '';
@@ -87,12 +46,45 @@ main {
   margin-right: 10px;
 }
 
+.container__description__text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.container__description__text-area > input:focus {
+  outline: none;
+}
+.container__description--text {
+  font-size: 20px;
+  margin-left: 40px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+.img-link-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 18px;
+  color: #fca311;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 900;
+}
+#location-main {
+  /* height: 70vh; */
+  padding: 30px 5px 60px 5px;
+}
+.location-container__location {
+  width: 80%;
+}
+
 .show-snackbar {
   visibility: visible !important;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2s;
   animation: fadein 0.5s, fadeout 0.5s 2s;
 }
-
 .snackbar-container {
   color: white;
   visibility: hidden;
@@ -170,14 +162,14 @@ main {
     font-size: 20px;
     letter-spacing: 2px;
   }
+  .container__description--hypen::before {
+    height: 20px;
+    margin-right: 7px;
+  }
   .container__description--text {
     font-size: 15px;
     margin-top: 10px;
     line-height: 15px;
-  }
-  .container__description--hypen::before {
-    height: 20px;
-    margin-right: 7px;
   }
 }
 
@@ -186,9 +178,6 @@ main {
 /*---------------------------------------------------------------*/
 /* 768px 미만 */
 @media all and (max-width: 767px) {
-  #location-main {
-    padding: 30px 5px 35px 5px;
-  }
   .location-container {
     margin: 0;
   }
@@ -200,13 +189,16 @@ main {
     margin: 0px;
     font-size: 15px;
   }
+  .container__description--hypen::before {
+    height: 15px;
+  }
   .container__description--text {
     font-size: 13px;
     margin-left: 20px;
     line-height: 17px;
   }
-  .container__description--hypen::before {
-    height: 15px;
+  #location-main {
+    padding: 30px 5px 35px 5px;
   }
   .snackbar-container {
     width: 80vw;

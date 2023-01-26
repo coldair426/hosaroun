@@ -218,18 +218,12 @@
       <div class="location-container flex-col">
         <div class="location-container__description">
           <div class="container__description--hypen">주소</div>
-          <div class="flex-row container__description__text-area">
-            <!-- <input value="강원도 춘천시 동면 순환대로 1154-48" style="border:0px;font-size: 16px;" readonly/> -->
+          <div class="container__description__text-area">
             <div class="container__description--text">
-              강원도 춘천시 동면 순환대로 1154-48
+              강원도 춘천시 동면 순환대로 1154-48.
             </div>
             <button class="img-link-btn" onclick="handleOnclickCopyBtn()">
-              <img
-                width="16px"
-                height="16px"
-                src="./icon_src/clipboard_01.svg"
-                alt="clipboard"
-              />복사
+              주소 복사
             </button>
           </div>
         </div>
@@ -241,20 +235,9 @@
             제이콥스 스테이션 건너편, 검은색 가건물 옆길로 올라오시면 양문형 큰
             대문이 보입니다.
           </div>
-          <div>
-            <a href="http://kko.to/WCmpi9sRVD"
-              ><div class="container__description--text">
-                카카오맵 바로가기
-              </div></a
-            >
-          </div>
         </div>
       </div>
       <div id="location-main" class="location-container flex-col">
-        <!-- 
-          <div class="location-container__header flex-row">
-              <span>오시는길</span>
-          </div> -->
         <div class="location-container__location">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6926.375790233826!2d127.77368363465354!3d37.88488784509862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3562e562c1dde0ef%3A0x1e6c406b5da70c0a!2z6rCV7JuQ64-EIOy2mOyynOyLnCDrj5nrqbQg7Iic7ZmY64yA66GcIDExNTQtMjA!5e0!3m2!1sko!2skr!4v1673002855026!5m2!1sko!2skr"
@@ -304,9 +287,7 @@
         </div>
       </div>
     </footer>
-    <div id="copy-snackbar" class="flex-row snackbar-container">
-      복사가 완료되었습니다.
-    </div>
+    <div id="copy-snackbar" class="flex-row snackbar-container">복사 완료</div>
     <script src="./script/base.js"></script>
     <script>
       const handleOnclickCopyBtn = () => {
