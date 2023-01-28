@@ -32,10 +32,11 @@
 .contact__tiltle::before {
   display: block;
   content: '';
-  width: 5px;
-  height: 25px;
+  width: 6px;
+  height: 18px;
   background-color: #14213d;
-  margin-right: 10px;
+  margin-right: 6px;
+  border-radius: 10px;
 }
 .contact__value {
   margin-top: 40px;
@@ -60,6 +61,11 @@
   }
   .contact__tiltle {
     font-size: 20px;
+  }
+  .contact__tiltle::before {
+    width: 5px;
+    height: 14px;
+    margin-right: 5px;
   }
   .contact__value {
     margin-top: 30px;
@@ -87,8 +93,9 @@
     font-size: 15px;
   }
   .contact__tiltle::before {
-    height: 13px;
-    margin-right: 5px;
+    width: 4px;
+    height: 10px;
+    margin-right: 4px;
   }
   .contact__value {
     margin-top: 10px;

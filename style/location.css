@@ -37,10 +37,11 @@ main {
 .container__description--hypen::before {
   display: block;
   content: '';
-  width: 5px;
-  height: 25px;
+  width: 6px;
+  height: 18px;
   background-color: #14213d;
-  margin-right: 10px;
+  margin-right: 6px;
+  border-radius: 10px;
 }
 
 .container__description__text-area {
@@ -162,8 +163,9 @@ main {
     letter-spacing: 2px;
   }
   .container__description--hypen::before {
-    height: 20px;
-    margin-right: 7px;
+    width: 5px;
+    height: 14px;
+    margin-right: 5px;
   }
   .container__description--text {
     font-size: 15px;
@@ -195,9 +197,12 @@ main {
   }
   .container__description--hypen {
     font-size: 15px;
+    margin: 0 0 8px 0;
   }
   .container__description--hypen::before {
-    height: 15px;
+    width: 4px;
+    height: 10px;
+    margin-right: 4px;
   }
   .container__description--text {
     font-size: 13px;
@@ -217,8 +222,5 @@ main {
 @media all and (max-width: 280px) {
   .location-container__description {
     margin-top: 33px;
-  }
-  .container__description--hypen {
-    margin: 0 0 10px 0;
   }
 }

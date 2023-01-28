@@ -14,14 +14,16 @@
 .main__booknow h2::before {
   display: block;
   content: '';
-  width: 5px;
-  height: 25px;
+  width: 6px;
+  height: 18px;
   background-color: #14213d;
-  margin-right: 10px;
+  margin-right: 6px;
+  border-radius: 10px;
 }
 .main__booknow h1,
 .main__booknow h2 {
   display: flex;
+  align-items: center;
   font-size: 25px;
   font-weight: 900;
   margin: 25px 0px;
@@ -56,8 +58,9 @@
   }
   .main__booknow h1::before,
   .main__booknow h2::before {
-    height: 20px;
-    margin-right: 7px;
+    width: 5px;
+    height: 14px;
+    margin-right: 5px;
   }
   .main__booknow h1,
   .main__booknow h2 {
@@ -80,7 +83,9 @@
   }
   .main__booknow h1::before,
   .main__booknow h2::before {
-    height: 15px;
+    width: 4px;
+    height: 10px;
+    margin-right: 4px;
   }
   .main__booknow h1,
   .main__booknow h2 {
