@@ -26,7 +26,6 @@ main {
   margin-bottom: 0px;
 }
 .container__description--hypen {
-  width: 300px;
   display: flex;
   height: 20px;
   align-items: center;
@@ -208,5 +207,18 @@ main {
   .img-link-btn {
     font-size: 13px;
     margin-left: 20px;
+  }
+}
+
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+/* 280px 미만 */
+@media all and (max-width: 280px) {
+  .location-container__description {
+    margin-top: 33px;
+  }
+  .container__description--hypen {
+    margin: 0 0 10px 0;
   }
 }

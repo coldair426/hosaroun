@@ -102,7 +102,13 @@
 /*---------------------------------------------------------------*/
 /* 280px 미만 */
 @media all and (max-width: 280px) {
+  .main__rooms > div {
+    margin: 10px 0px 0px 0px;
+  }
+  .main__rooms h1::before {
+    margin-left: 14px;
+  }
   .img__wrapper {
-    height: 50vw;
+    height: 51vw;
   }
 }
