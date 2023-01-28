@@ -16,13 +16,11 @@ main {
 
 .location-container {
   box-sizing: content-box;
-  padding: 0 10px;
-  margin: 10px 0;
 }
 .location-container__description {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 70%;
   height: 100%;
   margin-top: 60px;
   margin-bottom: 0px;
@@ -32,7 +30,7 @@ main {
   display: flex;
   height: 20px;
   align-items: center;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
   font-size: 25px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -47,23 +45,21 @@ main {
 }
 
 .container__description__text-area {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: center;
 }
 .container__description__text-area > input:focus {
   outline: none;
 }
 .container__description--text {
   font-size: 20px;
-  margin-left: 40px;
-  line-height: 25px;
+  margin: 10px 0px 10px 40px;
   vertical-align: middle;
 }
 .img-link-btn {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   vertical-align: middle;
   line-height: 18px;
@@ -71,13 +67,15 @@ main {
   cursor: pointer;
   font-size: 20px;
   font-weight: 900;
+  margin-left: 40px;
 }
 #location-main {
   /* height: 70vh; */
-  padding: 30px 5px 60px 5px;
+  padding: 30px 0px 60px 0px;
 }
 .location-container__location {
-  width: 80%;
+  width: 70%;
+  height: 700px;
 }
 
 .show-snackbar {
@@ -101,6 +99,8 @@ main {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 @-webkit-keyframes fadein {
@@ -153,7 +153,7 @@ main {
 /* 1024px 이하 */
 @media all and (max-width: 1024px) {
   .location-container__description {
-    width: 77%;
+    width: 75%;
   }
   .location-container__description-2nd {
     margin-top: 30px;
@@ -168,8 +168,18 @@ main {
   }
   .container__description--text {
     font-size: 15px;
-    margin-top: 10px;
-    line-height: 15px;
+  }
+  .img-link-btn {
+    font-size: 15px;
+  }
+  .location-container__location {
+    width: 75%;
+    height: 400px;
+  }
+  .snackbar-container {
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
   }
 }
 
@@ -178,15 +188,13 @@ main {
 /*---------------------------------------------------------------*/
 /* 768px 미만 */
 @media all and (max-width: 767px) {
-  .location-container {
-    margin: 0;
-  }
   .location-container__description {
-    width: 80%;
-    margin-top: 45px;
+    margin-top: 43px;
+  }
+  .location-container__description-2nd {
+    margin-top: 25px;
   }
   .container__description--hypen {
-    margin: 0px;
     font-size: 15px;
   }
   .container__description--hypen::before {
@@ -194,13 +202,11 @@ main {
   }
   .container__description--text {
     font-size: 13px;
+    margin: 0px 0px 0px 20px;
+    line-height: 20px;
+  }
+  .img-link-btn {
+    font-size: 13px;
     margin-left: 20px;
-    line-height: 17px;
-  }
-  #location-main {
-    padding: 30px 5px 35px 5px;
-  }
-  .snackbar-container {
-    width: 80vw;
   }
 }

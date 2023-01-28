@@ -27,8 +27,8 @@
   letter-spacing: 2px;
 }
 .img__wrapper {
-  height: 40vw;
-  margin: 25px 5%;
+  height: 45vw;
+  margin: 40px 0px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -74,7 +74,7 @@
 @media all and (max-width: 767px) {
   .main__rooms {
     margin: 25px 0px 20px 0px;
-    width: 90%;
+    width: 85%;
   }
   .main__rooms > div {
     margin: 20px 0px 0px 0px;
@@ -88,7 +88,7 @@
     margin: 0px;
   }
   .img__wrapper {
-    height: 58vw;
+    height: 55vw;
     margin: 25px 0;
   }
   .img__button-icon {
