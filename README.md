@@ -25,20 +25,28 @@
 
 # 페이지 구성
 
-| <img src="./README_src/1.png" alt="index.html"> | <img src="./README_src/2.png" alt="overview.html"> | <img src="./README_src/3.png" alt="rooms.html"> |
+| <img src="./README_src/1.jpg" alt="index.html"> | <img src="./README_src/2.jpg" alt="overview.html"> | <img src="./README_src/3.jpg" alt="rooms.html"> |
 | :---------------------------------------------: | :------------------------------------------------: | :---------------------------------------------: |
 |                   index.html                    |                   overview.html                    |                   rooms.html                    |
 
-| <img src="./README_src/4.png" alt="location.html"> | <img src="./README_src/5.png" alt="booknow.html"> | <img src="./README_src/6.png" alt="contactus.html"> |
+| <img src="./README_src/4.jpg" alt="location.html"> | <img src="./README_src/5.jpg" alt="booknow.html"> | <img src="./README_src/6.jpg" alt="contactus.html"> |
 | :------------------------------------------------: | :-----------------------------------------------: | :-------------------------------------------------: |
 |                   location.html                    |                   booknow.html                    |                   contactus.html                    |
 
 # 기능
 
-1. 여러분의 애플리케이션이 무엇을 하는지,
-   왜 그 기술을 사용했는지,
-1. 여러분이 당면했던 문제나
-1. 나중에 추가하고 싶은 기능이 무엇인지
+- Responsive Web(CSS)
+- Mobile ver. sticky header(CSS)
+- PC ver. sticky header(JS)
+- Mobile ver. navigation menu(JS)
+- 현재 페이지 표시(JS)
+- Carousel slider(JS)
+
+## 앞으로 구현하고자 하는 것은
+
+- REACT 리펙토링
+- 관리자 페이지
+- CRUD 웹
 
 # 배포주소
 
@@ -81,4 +89,4 @@
 
 ---
 
-Full README가 보고 싶다면 [velog](https://velog.io/@coldair426/series/%ED%98%B8%EC%82%AC%EB%A1%9C%EC%9A%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)를 참고하세요.
+**Full README가 보고 싶다면 [velog](https://velog.io/@coldair426/series/%ED%98%B8%EC%82%AC%EB%A1%9C%EC%9A%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)를 참고하세요.**
