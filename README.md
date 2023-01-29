@@ -50,7 +50,7 @@
 
 # 배포주소
 
-- http://siksunbi.dothome.co.kr/
+- http://hosaroun.dothome.co.kr/
 
 # Browser Support
 
