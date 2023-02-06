@@ -41,6 +41,7 @@
 - Mobile ver. navigation menu(JS)
 - 현재 페이지 표시(JS)
 - Carousel slider(JS)
+- Image preloading(JS)
 
 ## 앞으로 구현하고자 하는 것은
 
