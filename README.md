@@ -35,13 +35,13 @@
 
 # 기능
 
-- Responsive Web(CSS)
-- Mobile ver. sticky header(CSS)
-- PC ver. sticky header(JS)
-- Mobile ver. navigation menu(JS)
-- 현재 페이지 표시(JS)
-- Carousel slider(JS)
-- Image preloading(JS)
+- <a href="https://velog.io/@coldair426/%EB%B0%98%EC%9D%91%ED%98%95%EC%9B%B9%EA%B5%AC%ED%98%84" target="_blank">Responsive Web(CSS)</a>
+- <a href="https://velog.io/@coldair426/stickyheader" target="_blank">Mobile ver. sticky header(CSS)</a>
+- <a href="https://velog.io/@coldair426/stickyheader" target="_blank">PC ver. sticky header(JS)</a>
+- <a href="https://velog.io/@coldair426/mobilevernavigationmenu" target="_blank">Mobile ver. navigation menu(JS)</a>
+- <a href="https://velog.io/@coldair426/%ED%98%84%EC%9E%AC%ED%8E%98%EC%9D%B4%EC%A7%80%ED%91%9C%EC%8B%9C" target="_blank">현재 페이지 표시(JS)</a>
+- <a href="https://velog.io/@coldair426/carouselslider" target="_blank">Carousel slider(JS)</a>
+- <a href="https://velog.io/@coldair426/imagepreloading" target="_blank">Image preloading(JS)</a>
 
 ## 앞으로 구현하고자 하는 것은
 
