@@ -16,6 +16,11 @@
 
 ---
 
+**리액트로 리팩토링 되었습니다.**<br/>
+**리액트 리팩토링 Repository를 보고싶다면 [여기를](https://github.com/coldair426/hosaroun-React) 참고하세요.**
+
+---
+
 # 개요
 
 - 프로젝트명 : 호사로운
@@ -51,7 +56,7 @@
 
 # 배포주소
 
-- http://hosaroun.dothome.co.kr/
+- ~~http://hosaroun.dothome.co.kr/~~
 
 # Browser Support
 
