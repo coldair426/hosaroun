@@ -34,6 +34,14 @@
 
 # Introduction
 
+춘천 호사로운 팬션의 정보를 제공하는 웹 서비스 입니다.
+
+**주요 기능**:
+
+- **사진**: 캐로셀 슬라이더를 이용해 다양한 사진을 효과적으로 제공합니다.
+
+- **카카오맵 API**: 카카오맵 API를 이용해 위치를 정확하게 표현하고, 지도보기와 길찾기 링크를 제공합니다.
+
 # Configuration
 
 | <img src="./README_src/1.png" alt="index.html"> | <img src="./README_src/2.png" alt="overview.html"> | <img src="./README_src/3.png" alt="rooms.html"> |
