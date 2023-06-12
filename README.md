@@ -72,11 +72,14 @@
 
 - **HONG(FRONT-END)**
 
+  - **index, overview, rooms, booknow, contactus 페이지**
   - **GitHub**: https://github.com/coldair426
   - **Blog**: https://velog.io/@coldair426
   - **Mail**: coldair426@gmail.com
 
 - **PARK(BACK-END)**
+
+  - **location 페이지**
   - **GitHub**: https://github.com/pannchat
   - **Blog**: https://pannchat.tistory.com/
 
